@@ -173,12 +173,12 @@ if('querySelector' in document
                     !mq.matches
                 ){
                     // Blur everything except the target hash
-                    CSSBlur('body>div:not(' + hash + ')', '3px');
+                    CSSBlur('body>*:not(' + hash + ')', '3px');
                 }
                 // If there is no hash we care about or weâ€™re not at the right media query
                 else{
                     // Make sure everything is not blured
-                    CSSBlur('body>div', 0);
+                    CSSBlur('body>*', 0);
                     if (click){
                         window.location.hash = '';
                     }

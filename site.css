@@ -624,7 +624,7 @@
         min-height: 4.125em;
         min-width: 3.25em
     }
-    #srch:target {
+    #Srh:target {
         bottom: 0;
         background-color: #808080;
         background-color: rgba(128,128,128,.75);
@@ -633,19 +633,19 @@
         right: 0;
         width: 100%
     }
-    #srch:target .Srh_btn {
+    #Srh:target .Srh_btn {
         bottom: auto
     }
-    #srch:target .Srh_fld {
+    #Srh:target .Srh_fld {
         height: 100%
     }
-    #srch:target .Srh_fld, #srch:target .Srh_frm, #srch:target {
+    #Srh:target .Srh_fld, #Srh:target .Srh_frm, #Srh:target {
         position: absolute;
         top: 0;
         z-index: 2
     }
     body:not(:target) .Srh_btn,
-    #srch:target .Srh_cncl, #srch:target .Srh_fld, #srch:target .Srh_sbmt,
+    #Srh:target .Srh_cncl, #Srh:target .Srh_fld, #Srh:target .Srh_sbmt,
     #nav:target .iCls {
         display: block;
         visibility: visible
@@ -672,7 +672,7 @@
         font: normal .85/1 Verdana, Geneva, sans-serif;
         padding: .125em 0
     }
-    #srch {
+    #Srh {
         overflow: visible
     }
     .acNA-menu {
